@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: black;
+}
+
+.navbar-brand img {
+    max-height: 30px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fc6600;
+}
+
+.navbar-brand:hover {
+
+    color: #ff9900;
+}
+
+nav ul li a {
+    color: #fc6600;
+    font-size: 16px;
+    margin: auto 10px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: #fc6600 1px solid;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: #fc6600;
+}
+
+#hero {
+    background: linear-gradient(-45deg, #ff9900, #fc6600, #fd6a02, #692c03);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    25% {
+        background-position: 50% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    75% {
+        background-position: 75% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#hero {
+    color: #ffffff;
+
+}
+
+#hero .img-col {
+    justify-content: flex-end;
+}
+
+#hero img {
+    max-width: 100% !important;
+    width: 100%;
+}
+
+#hero .card {
+    box-shadow: 11px 7px 16px #f9f9f9;
+    border: 0;
+    text-align: center;
+}
+
+#hero .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #000;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+
+
+section p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+button {
+    max-width: 60%;
+    border-radius: 10px !important;
+}
+
+.btn {
+    background-color: #fff;
+    padding-bottom: 10px;
+    color: #fc6600;
+    border: none;
+}
+
+#about-us {
+    margin: 0px;
+}
+
+
+
+#projects {
+    background-color: #fc6600;
+}
+
+#projects h1 {
+    color: black;
+}
+
+#contact {
+    background-color: black;
+    margin-top: 0px;
+    color: #fff;
+}
+
+.socials {
+    margin: 0 auto;
+    padding: 20px 5px;
+    text-align: center;
+}
+
+.socials a {
+    color: #fc6600;
+    padding: 5px;
+}
+
+.socials a:hover {
+    color: #fff;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, .1),
+        0 2px 2px rgba(255, 255, 255, .3);
+    font-weight: 600;
+}
